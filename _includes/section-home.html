@@ -1,0 +1,21 @@
+{% assign content = site.data.home['started'] %}
+
+<!-- Started -->
+<div class="section started" style="background-image: url('/assets/images/memetoliths.png'); background-size: cover;"">
+    <div class="centrize full-width">
+        <div class="vertical-bottom">
+          <div class="started-content-bg"><div>
+            <div class="started-content">
+                {{ if content.title != '' }}
+                <a href="/works"><div style="color: #eee;" class="h-title glitch-effect" data-text="{{ content.title }}">{{ content.title }}</div></a>
+                {{ endif }}
+                <div class="started-content h-subtitle">
+                    {% for item in content.typed %}
+                    <p style="color: #eee;">{{ item }}</p>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

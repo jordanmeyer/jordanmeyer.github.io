@@ -1,0 +1,15 @@
+# Footer configuration file
+##
+### param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
+### param "copy" - Copyright text
+
+main:
+  social:
+    - title: "Twitter"
+      icon: "social-twitter"
+      url: "https://twitter.com/jordancmeyer"
+    - title: "GitHub"
+      icon: "social-github"
+      url: "https://github.com/jordanmeyer"
+
+  copy: "© All rights reserved."
