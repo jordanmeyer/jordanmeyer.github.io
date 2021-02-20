@@ -38,7 +38,7 @@ $(function () {
             /* Typed breadcrumbs */
             $('.typed-bread').typed({
                 stringsElement: $('.typing-bread'),
-                showCursor: false
+                showCursor: true
             });
 
             /* One Page Nav */
