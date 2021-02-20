@@ -40,8 +40,8 @@ body {
     letter-spacing: $default-letter-spacing;
     font-weight: 400;
     header, footer, .section {
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility: visible;
     }
     &.loaded {
         header, footer, .section {
@@ -246,24 +246,24 @@ a.btn, .btn {
     }
 }
 
-/* 7. Preloader */
-.preloader {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 1000;
-    top:0;
-    left:0;
-    text-align: center;
-    .load {
-        color: $active-color;
-        font-size: $small-size;
-    }
-    .typed-load, .typed-cursor {
-        color: $active-color;
-        font-size: $small-size;
-    }
-}
+// /* 7. Preloader */
+// .preloader {
+//     width: 100%;
+//     height: 100%;
+//     position: fixed;
+//     z-index: 1000;
+//     top:0;
+//     left:0;
+//     text-align: center;
+//     .load {
+//         color: $active-color;
+//         font-size: $small-size;
+//     }
+//     .typed-load, .typed-cursor {
+//         color: $active-color;
+//         font-size: $small-size;
+//     }
+// }
 
 /* 8. Forms */
 input,

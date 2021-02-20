@@ -16,39 +16,39 @@ $(function () {
     var height = $(window).height();
     $('.section.started').css({'height': height-60});
 
-    /* Typed preload text */
-    $('.typed-load').typed({
-        stringsElement: $('.typing-load'),
-        loop: true
-    });
+    // /* Typed preload text */
+    // $('.typed-load').typed({
+    //     stringsElement: $('.typing-load'),
+    //     loop: true
+    // });
 
-    /* Preloader */
-    $(window).on('load', function() {
-        $(".preloader .pre-inner").fadeOut(800, function(){
-            /* Preload hide */
-            $('.preloader').fadeOut();
-            $('body').addClass('loaded');
+    // /* Preloader */
+    // $(window).on('load', function() {
+    //     $(".preloader .pre-inner").fadeOut(800, function(){
+    //         /* Preload hide */
+    //         $('.preloader').fadeOut();
+    //         $('body').addClass('loaded');
 
-            /* Typed subtitle */
-            $('.typed-subtitle').typed({
-                stringsElement: $('.typing-subtitle'),
-                loop: true
-            });
+    //         /* Typed subtitle */
+    //         $('.typed-subtitle').typed({
+    //             stringsElement: $('.typing-subtitle'),
+    //             loop: true
+    //         });
 
-            /* Typed breadcrumbs */
-            $('.typed-bread').typed({
-                stringsElement: $('.typing-bread'),
-                showCursor: true
-            });
+    //         /* Typed breadcrumbs */
+    //         $('.typed-bread').typed({
+    //             stringsElement: $('.typing-bread'),
+    //             showCursor: true
+    //         });
 
-            /* One Page Nav */
-            var url_hash = location.hash;
-            var sectionElem = $(url_hash);
-            if(url_hash.indexOf('#section-') == 0 && sectionElem.length){
-                $('body, html').animate({scrollTop: $(url_hash).offset().top - 70}, 400);
-            }
-        });
-    });
+    //         /* One Page Nav */
+    //         var url_hash = location.hash;
+    //         var sectionElem = $(url_hash);
+    //         if(url_hash.indexOf('#section-') == 0 && sectionElem.length){
+    //             $('body, html').animate({scrollTop: $(url_hash).offset().top - 70}, 400);
+    //         }
+    //     });
+    // });
 
     /*Fade-out animation between load pages*/
     $('header .top-menu, .typed-bread').on('click', 'a', function(){
