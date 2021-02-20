@@ -1,0 +1,9 @@
+# Home content configuration file
+##
+### here you can find all content for home page
+
+### Started
+started:
+  title: "Memetoliths"
+  typed:
+    - "1. natural topographic features or rocks with shapes resembling something else | 2. a new series of large format AI-generated art"
