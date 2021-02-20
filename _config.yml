@@ -24,7 +24,7 @@ email: "jordan.meyer@rittmanmead.com"
 description: "Jordan Meyer"
 author: "jordan"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "jordanmeyer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jordanmeyer.github.io"
 date_format: "%d %B %Y"
 
 # paginations & permalinks
